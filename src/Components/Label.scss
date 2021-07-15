@@ -1,0 +1,29 @@
+.holder {
+  display: flex;
+  padding: 70px 300px;
+  gap: 2rem;
+
+  .main-com {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 5px 4px rgb(216, 213, 213);
+    border-radius: 8px;
+    width: 500px;
+    justify-content: space-between;
+    img {
+      width: 100px;
+      margin-left: 1rem;
+    }
+    .please {
+      padding: 30px;
+
+      p:hover {
+        color: coral;
+        cursor: pointer;
+      }
+      h1 {
+        font-weight: 500;
+      }
+    }
+  }
+}

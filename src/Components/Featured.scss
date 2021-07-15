@@ -1,0 +1,39 @@
+.featured-section {
+  margin: 250px;
+  .parent {
+    display: flex;
+    justify-content: space-between;
+  }
+  .semi-head {
+    text-align: center;
+  }
+  .btns {
+    background-color: white;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 25px;
+    padding: 0.8rem 2rem;
+  }
+  .btns:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    border: 1px solid coral;
+    color: coral;
+    cursor: pointer;
+  }
+  .card {
+    background-color: rgb(223, 217, 217);
+    width: 240px;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    h1 {
+      background-color: coral;
+      width: 90px;
+      font-size: 26px;
+      padding-left: 1rem;
+    }
+    img {
+      width: 200px;
+    }
+  }
+}
