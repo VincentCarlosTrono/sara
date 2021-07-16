@@ -33,9 +33,22 @@ export const Footer = () => {
       </div>{" "}
       <div className="sara">
         <h1>FOLLOW</h1>
-        <ul>
-          <li>Product store </li>
-        </ul>
+        <div className="accounts">
+          <ul>
+            {/* @ts-ignore */}
+            <box-icon name="facebook" type="logo"></box-icon>
+          </ul>{" "}
+          <ul>
+            {/* @ts-ignore */}
+
+            <box-icon name="twitter" type="logo"></box-icon>
+          </ul>{" "}
+          <ul>
+            {/* @ts-ignore */}
+
+            <box-icon name="instagram-alt" type="logo"></box-icon>
+          </ul>
+        </div>
       </div>
     </div>
   );

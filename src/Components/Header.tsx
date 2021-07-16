@@ -12,6 +12,9 @@ export const Header = () => {
             <li>Featured</li>
             <li>New</li>
             <li>Subscribe</li>
+
+            {/* @ts-ignore */}
+            <box-icon name="cart"></box-icon>
           </ul>
         </div>
       </div>
