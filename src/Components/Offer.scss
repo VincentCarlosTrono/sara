@@ -1,0 +1,30 @@
+.offer {
+  text-align: center;
+  justify-content: center;
+  padding: 7rem 100px;
+  background-position: center;
+  margin: 100px 0px;
+  background-image: url(../Media/offer.jpg);
+
+  .content {
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    h1 {
+      font-weight: 200;
+    }
+    .btn1 {
+      padding: 1rem;
+      background-color: rgb(185, 135, 135);
+      border: none;
+      border-radius: 10px;
+    }
+  }
+  .btn1:hover {
+    color: coral;
+    cursor: pointer;
+    background-color: rgb(99, 63, 63);
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+}

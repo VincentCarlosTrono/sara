@@ -1,39 +1,41 @@
-.featured-section {
+.arrival-section {
   margin: 100px 250px;
 
-  .parent {
+  .arrival-main {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding: 25px 500px;
   }
-  .card:hover {
+  .cards:hover {
     transform: translateY(-35px);
     transition: 0.5s;
     cursor: pointer;
-    background-color: rgb(255, 101, 101);
+    background-color: rgb(126, 193, 255);
   }
-  .semi-head {
+  .arrive-head {
     text-align: center;
     h1 {
-      color: coral;
+      color: rgb(127, 127, 247);
     }
   }
-  .btns {
+  .btns1 {
     background-color: white;
     border: 1px solid rgb(212, 211, 211);
     border-radius: 25px;
     padding: 0.8rem 2rem;
     margin-bottom: 3rem;
   }
-  .btns:hover {
+  .btns1:hover {
     transform: scale(1.2);
     transition: 0.3s;
-    border: 1px solid coral;
-    color: coral;
+    border: 1px solid rgb(136, 153, 250);
+    color: rgb(136, 153, 250);
     cursor: pointer;
   }
-  .card {
+  .cards {
     background-color: rgb(223, 217, 217);
+    padding: 50px;
     width: 240px;
     height: 350px;
     text-align: center;
@@ -43,16 +45,18 @@
     h1 {
       font-size: 1rem;
       text-align: left;
-      font-weight: 400;
-      padding: 10px;
-      margin-top: 0px;
-      background-color: coral;
+      font-weight: 800;
+      padding: 20px;
+      margin: -48px;
+      border-radius: 20px;
+      background-color: rgb(104, 144, 255);
       width: 40px;
       color: white;
     }
     img {
-      width: 200px;
-      height: 180px;
+      width: 350px;
+      height: 250px;
+      margin-right: 150px;
     }
     h2 {
       font-size: 1.2rem;

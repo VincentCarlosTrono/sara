@@ -1,0 +1,45 @@
+.news {
+  text-align: center;
+  margin: 50px;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  input {
+    border: none;
+    padding: 11px;
+  }
+
+  .sub {
+    border: 2px solid rgb(156, 156, 241);
+    border-radius: 25px;
+    padding: 1.8px;
+    margin: 0px 650px;
+    .boton {
+      background-color: rgb(5, 77, 124);
+      border: none;
+      color: rgb(169, 169, 255);
+      padding: 1rem;
+      border-radius: 2rem;
+    }
+    .boton:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  }
+  .images {
+    justify-content: center;
+    display: flex;
+    padding: 45px;
+    gap: 150px;
+    opacity: 1;
+    :hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}

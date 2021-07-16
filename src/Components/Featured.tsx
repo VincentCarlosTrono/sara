@@ -40,9 +40,9 @@ export const Featured = () => {
           <div className="card">
             <h1>NEW</h1>
             <div className="card-item">
-              <img src={feature1} />
-              <h2>HEADPHONE ONE BLACK</h2>
-              <p>$29</p>
+              <img src={feature.image} />
+              <h2>{feature.Name}</h2>
+              <p>{feature.price}</p>
             </div>
           </div>
         ))}

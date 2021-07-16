@@ -1,36 +1,32 @@
-li {
-    list-style: none;
-    margin: 1rem 16px;
-    gap: 60px;
-    
-}
 .head {
-    display: flex;
-    padding: 0px 250px;
-    margin-top: 0px;
-    justify-content: space-between;
-    
-    
-    
-    
-}
-.lines ul {
-    display: flex;
-    
-    
-}
-.logo {
-    font-size: 16px;
+  display: flex;
+  padding: 0px 400px;
+  width: 1000px;
+  gap: 450px;
+  position: fixed;
+  background-color: rgb(84, 124, 136);
+  box-shadow: 1px 1px 8px rgb(80, 79, 79);
+  .lines {
+    margin: 0px;
+    ul {
+      display: flex;
+      :hover {
+        color: white;
+        background-color: rgb(113, 2, 128);
+        padding: 4px;
+        border-radius: 25px;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+      li {
+        list-style: none;
+        margin: 1rem 2rem;
+        gap: 60px;
+      }
+    }
+  }
+  .logo {
+    font-size: 30px;
     margin-top: 2rem;
-    
-}
-.icon {
-    
-    margin-top: 2rem;
-}
-.lines {
-    margin: 0px ;
-}
-.nav {
-    display: flex;
+  }
 }

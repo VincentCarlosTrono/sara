@@ -24,6 +24,7 @@ export const Label = () => {
           </h1>
           <p>View Collection</p>
         </div>
+
         <div className="image">
           <img src={Doro} />
         </div>
